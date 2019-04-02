@@ -1,0 +1,97 @@
+# Navigation Links
+#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
+#     desired widget in your `content/home/` folder.
+#   The weight parameter defines the order that the links will appear in.
+
+[[main]]
+  name = "Home"
+  url = ""
+  weight = 10
+  
+[[main]]
+  name = "Research"
+  url = "/research/"
+  weight = 20
+  identifier = "research"
+
+[[main]]
+  name = "Nickel-based Superalloys"
+  url = "/research/"
+  weight = 10
+  parent = "research"
+
+[[main]]
+  name = "ICME"
+  url = "/research#ICME"
+  weight = 20
+  parent = "research"
+
+[[main]]
+  name = "Softwares"
+  url = "/research/"
+  weight = 30
+  parent = "research"
+
+[[main]]
+  name = "People"
+  url = "/people/"
+  weight = 30
+  identifier = "people"
+
+[[main]]
+  name = "Academic Staffs"
+  url = "/people/"
+  weight = 10
+  parent = "people"
+
+[[main]]
+  name = "Supporting Staffs"
+  url = "/people/"
+  weight = 20
+  parent = "people"
+
+[[main]]
+  name = "Grad Students"
+  url = "/people/"
+  weight = 30
+  parent = "people"
+
+[[main]]
+  name = "Post Docs"
+  url = "/people/"
+  weight = 40
+  parent = "people"
+
+[[main]]
+  name = "Former Members"
+  url = "/people/"
+  weight = 50
+  parent = "people"
+
+[[main]]
+  name = "Publications"
+  url = "/publications/"
+  weight = 40
+
+[[main]]
+  name = "Resources"
+  url = "/resrouces/"
+  weight = 50
+  identifier = "Resources"
+
+[[main]]
+  name = "Facilities"
+  url = "/resrouces/"
+  weight = 50
+  parent = "Resources"
+
+[[main]]
+  name = "Research Sponsors"
+  url = "/resrouces/"
+  weight = 50
+  parent = "Resources"
+
+[[main]]
+  name = "Contact"
+  url = "/contact/"
+  weight = 60
