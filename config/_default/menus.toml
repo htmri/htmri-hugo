@@ -5,7 +5,7 @@
 
 [[main]]
   name = "Home"
-  url = ""
+  url = '#index'
   weight = 10
   
 [[main]]
