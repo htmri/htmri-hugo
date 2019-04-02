@@ -1,8 +1,11 @@
 +++
 # Homepage
-type = "widget_page"
-headless = true  # Homepage is headless, other widget pages are not.
-+++
+widget = "blank"
+headless = true  # This file represents a page section.
 
-# this is the homepage
-WHY THIS CANNOT SHARE
+# ... Put Your Section Options Here (title etc.) ...
+
+[design]
+  # Choose how many columns the section has. Valid values: 1 or 2.
+  columns = "1"
++++
