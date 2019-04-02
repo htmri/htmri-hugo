@@ -69,8 +69,8 @@
   parent = "people"
 
 [[main]]
-  name = "Publications"
-  url = "/publications/"
+  name = "Publication"
+  url = "/publication/"
   weight = 40
 
 [[main]]
@@ -87,7 +87,7 @@
 
 [[main]]
   name = "Research Sponsors"
-  url = "/resrouces/"
+  url = "/resources/"
   weight = 50
   parent = "Resources"
 
