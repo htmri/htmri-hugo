@@ -2,7 +2,7 @@
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
-git submodule add -f -b master https://github.com/htmri/<htmri.github.io.git public
+git submodule add -f -b master https://github.com/htmri/htmri.github.io.git public
 
 git add .
 
