@@ -63,7 +63,7 @@
   parent = "people"
 
 [[main]]
-  name = "Former Members"
+  name = "Alumni"
   url = "/people/"
   weight = 50
   parent = "people"
@@ -92,6 +92,11 @@
   parent = "Resources"
 
 [[main]]
+  name = "News"
+  url = "/news/"
+  weight = 60
+
+[[main]]
   name = "Contact"
   url = "/contact/"
-  weight = 60
+  weight = 70
