@@ -81,13 +81,13 @@
 
 [[main]]
   name = "Facilities"
-  url = "/resrouces/"
+  url = "/resrouces/#facilities"
   weight = 50
   parent = "Resources"
 
 [[main]]
   name = "Research Sponsors"
-  url = "/resources/"
+  url = "/resources/#sponsors"
   weight = 50
   parent = "Resources"
 
