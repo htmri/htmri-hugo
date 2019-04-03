@@ -1,16 +1,32 @@
 #!/bin/bash
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
+
+git submodule add -f -b master https://github.com/htmri/<htmri.github.io.git public
+
+git add .
+
+git commit -m "constant updates"
+
+git push -u origin master
+
+# Build the project.
+hugo -t academic # if using a theme, replace with `hugo -t <YOURTHEME>`
+
+# Go To Public folder
+cd public
+# Add changes to git.
+git add .
+
+# Commit changes.
 msg="rebuilding site `date`"
 if [ $# -eq 1 ]
-then msg="$1"
+  then msg="$1"
 fi
-
-hugo -t=we -D
-
-cd public
-git add -A
 git commit -m "$msg"
-git push --force -u origin master
 
-cd ../
+# Push source and build repos.
+git push origin master
+
+# Come Back up to the Project Root
+cd ..
